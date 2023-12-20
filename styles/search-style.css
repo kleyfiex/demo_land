@@ -1,0 +1,111 @@
+.content-result-form {
+    margin-top: 70px;
+}
+
+.result-form-up-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.result-form-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    gap: 80px;
+}
+
+.card-camping {
+    border: 1px solid #589114;
+    width: 630px;
+    height: 720px;
+}
+
+.card-camping-container {
+    width: 580px;
+    margin: 0 auto;
+}
+
+.img-row {
+    height: 383px;
+    background: url(../img/card.jpg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#title-card-camping {
+    font-size: 24px;
+    font-family: 'regular';
+}
+
+.short-icons-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.short-card-info {
+    width: 140px;
+}
+
+.short-card-info-desc {
+    color: #666666;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.short-card-info-desc::before {
+    content: "";
+    position: relative;
+    float: left;
+    width: 24px;
+    height: 24px;
+    background: url(../img/guest.svg) no-repeat center center;
+    margin-right: 5px;
+}
+
+.metres::before {
+    background: url(../img/metres.svg) no-repeat center center;
+}
+
+.main-info-card-row {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-between;
+}
+
+.main-info-card-row p {
+    font-size: 18px;
+    font-family: 'regular';
+}
+
+.cost-card-row {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cost-card-row p {
+    color: #B9783B;
+    font-family: 'bold';
+    font-size: 32px;
+}
+
+.cost-card-row button {
+    width: 200px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'regular';
+    font-size: 16px;
+    background: #B9783B;
+    border: none;
+    cursor: pointer;
+}
+
